@@ -1,0 +1,26 @@
+@import url(./common.css);
+
+ul {
+  width: 640px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px salmon solid;
+}
+li {
+  transition: all 2s;
+}
+li:nth-child(3n) img {
+  margin-right: 0;
+}
+li:nth-last-child(-n + 3) img {
+  margin-bottom: 0;
+}
+li img {
+  width: 200px;
+  opacity: 0.95;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
